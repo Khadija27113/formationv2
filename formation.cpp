@@ -162,6 +162,10 @@ struct Member{
             break;
         }
     }
+    if(!found){
+       cout<<"le membre avec ID "<<memberId<<" est introuvable on doit l'ajouter d'abord" ;
+    }
+        
      }
  
  void displayAllocatedMembers(const set<Member>& allocatedMembers){
